@@ -1,0 +1,261 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css";
+
+/* @import url("http://fonts.cdnfonts.com/css/circular-std");
+
+
+* {
+  font-family: 'Circular Std';
+} */
+
+.parent-main {
+  background: #424f55;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden !important;
+}
+img {
+  width: 100%;
+}
+.container-fluid {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/*  Navbar Section Start  */
+
+.header-main {
+  padding-top: 0.74%;
+}
+
+.header-main .container-fluid {
+  max-width: 1250px;
+  margin: auto;
+}
+.btn-secondary {
+  color: #fff;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+/* .dropdown {
+  position: relative;
+  right: -55px;
+  top: -35px;
+} */
+.header-main .row {
+  display: inherit !important;
+}
+
+.navbar-brand {
+  width: 33.33%;
+  color: white;
+}
+
+.navbar-brand span {
+  color: #ff8944;
+}
+
+.navbar-brand .dot {
+  color: #fdd365;
+}
+
+.navbar-collapse {
+  width: 66.33%;
+}
+
+/* .navbar-nav {
+	width: 50%;
+} */
+
+.nav-link-1 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  color: white;
+}
+.navbar {
+  padding-bottom: 0 !important;
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  margin-left: 11px;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+.navbar-light .navbar-toggler {
+  background-color: white;
+  color: white;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+.navbar-1 {
+  margin-bottom: -5% !important;
+}
+/* Navbar Section End */
+
+/* Banner section Start */
+.meet-head h1 {
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 71px;
+  color: #65fdbd;
+}
+.meet-icons {
+  text-align: right;
+}
+.meet-icons a img {
+  width: 26%;
+}
+.meet-icons a.active {
+  background-color: #49726a;
+  color: #65fdbd;
+}
+.meet-icons a:nth-child(1) {
+  margin-right: 20px;
+}
+.meet-icons a {
+  padding: 10px;
+  border-radius: 12px;
+  color: #fff;
+}
+.card-img img {
+  width: 100%;
+  border-radius: 50%;
+}
+.card-img {
+  background: #3b474c;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.card-desc h4 {
+  font-size: 17px;
+  line-height: 23px;
+  color: #65fdbd;
+}
+.card-desc h4 span {
+  color: white;
+}
+.card-desc p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.card-desc-icon img {
+  background: #646e73;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+  margin-right: 15%;
+}
+
+/* Banner section Close */
+/* Footer-tabs Section Start */
+
+.footer-tabs ul li a.active {
+  background-color: #53a689 !important;
+}
+
+.footer-tabs ul li a.active span {
+  background: #65fdbd !important;
+}
+/* Footer-tabs Section End   */
+/* Media Query Strat */
+@media screen and (max-width: 1200px) {
+  /* .footer-tabs ul li a,
+  .footer-tabs ul li a {
+    margin: 6px;
+  } */
+  .meet-content-main {
+    height: 100%;
+    display: flex;
+  }
+}
+@media screen and (max-width: 992px) {
+  /* .footer-tabs ul li a,
+  .footer-tabs ul li a:hover {
+    padding: 10px 8px;
+  } */
+  /* .footer-tabs ul {
+    margin-bottom: 10%;
+  } */
+  .parent-main {
+    height: 100%;
+  }
+  .card-desc h4 {
+    font-size: 11px;
+    line-height: 16px;
+  }
+  .card-desc p {
+    font-size: 8px;
+    line-height: 150%;
+  }
+  .card-desc {
+    margin-left: 10px !important;
+  }
+
+  .card-desc-icon img {
+    margin-right: 5%;
+  }
+  .card-img {
+    height: 60px;
+    width: 60px;
+  }
+  .meet-head h1 {
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 757px) {
+  .meet-head h1 {
+    font-size: 34px;
+    line-height: 34px;
+  }
+  .card-desc h4 {
+    font-size: 16px;
+  }
+  .card-desc p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 576px) {
+  /* .footer-tabs ul li a,
+  .footer-tabs ul li a {
+    padding: 10px 6px;
+    font-size: 10px;
+  } */
+}
+@media screen and (max-width: 475px) {
+  .footer-tabs ul {
+    display: inherit !important;
+  }
+  .footer-tabs ul li {
+    margin-bottom: 14%;
+  }
+  .footer-tabs ul li a,
+  .footer-tabs ul li a {
+    padding: 10px 70px;
+  }
+  .meet-head h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 420px) {
+}
+/* Media Query Close */

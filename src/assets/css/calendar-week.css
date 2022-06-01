@@ -1,0 +1,135 @@
+/* =================== Calendar Week Section Start ====================  */
+.calendar-month-name {
+  color: #ff8944;
+}
+
+.week-chip.active {
+  color: #ff8944;
+  background-color: #f0834444;
+}
+.week-chip {
+  background-color: #f1d3c131;
+  padding: 5px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  color: white;
+  margin-right: 30px;
+  font-size: 14px;
+}
+.btn-secondary {
+  color: #fff;
+  background: transparent !important;
+  border: none !important;
+
+  box-shadow: none !important;
+}
+
+.navbar-nav .nav-item-1 {
+  margin: -9px 13px 0px 0px !important;
+}
+
+/* .dropdown{
+    position: relative;
+      float: right;
+      top: -35px;
+      right: -9px;
+  } */
+.calender-week .footer-tabs {
+  bottom: 4% !important;
+}
+.calender-week .footer-tabs ul li a.active {
+  background-color: #f08344d0 !important;
+}
+.calender-week .footer-tabs ul li a.active span {
+  background: #ff8944 !important;
+}
+
+/* =================== Calendar Week Section End ====================  */
+/* =================== Calendar Week Carousel Section Start ==================== */
+
+.calendar-week-carousel .item {
+  border-radius: 25px;
+  background-image: url(../images/calendar-week-day.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  height: 250px;
+}
+.week-day-chip-main {
+  position: absolute;
+  left: 10px;
+  bottom: 15px;
+}
+.week-day-chip {
+  background-color: #f1d3c131;
+  padding: 5px 10px;
+  border-radius: 30px;
+  cursor: pointer;
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 10px;
+}
+
+.week-day-chip:hover {
+  background-color: #f0b08c44;
+  color: #ffb9b9;
+}
+
+/* =================== Calendar Week Carousel Section End ==================== */
+/* =================== Calendar Week Modal Section Start ==================== */
+
+.week-day-modal .modal-content {
+  background-image: url(../images/week-day-modal.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  width: 1000px;
+  height: 400px;
+}
+
+.calendar-week-item-title {
+  font-size: 3vw;
+}
+.video-modal .modal-dialog {
+  margin: 0 !important;
+}
+.video-modal .modal-content {
+  background: transparent !important;
+  box-shadow: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100vw;
+}
+.video-modal .close_vide_button {
+  position: absolute;
+  right: 40px;
+  top: 100px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+/* .week-day-modal .modal-content .week-day-modal-title {
+    color: 
+  } */
+
+/* =================== Calendar Week Modal Section End ==================== */
+@media (max-width: 1200px) {
+  .calender-week-content {
+    margin-top: 25px;
+  }
+}
+@media (max-width: 1024px) {
+  .calendar-week-carousel .item {
+    height: 200px;
+  }
+  .calendar-week-item-title {
+    font-size: 3vw;
+  }
+}

@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* @import url('http://fonts.cdnfonts.com/css/circular-std'); */
+img {
+  width: 100%;
+}
+
+/* body {
+	font-family: 'Circular Std', sans-serif;
+	font-style: normal;
+} */
+.modal-dialog {
+  max-width: 40% !important;
+  /* margin: 6.25rem auto !important; */
+}
+.modal-content {
+  background-color: #546166 !important;
+  border-radius: 48px !important;
+  padding: 30px;
+}
+.main-meet {
+  width: 100%;
+}
+.meet-img {
+  width: 25%;
+}
+.meet-para {
+  width: 75%;
+  margin-right: 10%;
+}
+.modal-header {
+  border-bottom: none !important;
+}
+.meet-para h3 {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #aeafff;
+}
+.meet-para p {
+  /* font-family: CircularXX TTTrial; */
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 15px !important;
+  line-height: 125% !important;
+  color: #cccccc !important;
+  position: inherit !important;
+}
+
+.meet-link h5 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 100%;
+  color: #aeafff;
+}
+.meet-para {
+  margin-left: 5%;
+}
+.meet-link p {
+  /* font-family: CircularXX TTTrial; */
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 16px !important;
+  line-height: 100% !important;
+  color: #cccccc !important;
+  position: inherit !important;
+}
+.meet-link input[type="text"] {
+  width: 100%;
+  background-color: #657175;
+  width: 100%;
+  border-radius: 16px;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 15px 0px 15px 30px;
+}
+.meet-link img {
+  width: 4%;
+  position: absolute;
+  right: 7%;
+  top: 83%;
+  cursor: pointer;
+}
+.meet-link input::placeholder {
+  color: white;
+  font-weight: 400;
+}
+.modal-header .close {
+  /* margin: -4rem -7rem -3rem auto !important; */
+  opacity: 1;
+  background: #2b2f31 !important;
+  border-radius: 9px !important;
+  color: white !important;
+  font-weight: 700 !important;
+  padding: 13px 20px !important;
+}
+
+.live-session .d-flex p::before {
+  display: none !important;
+}
+.modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.btn-join {
+  background: #aeafff;
+  border-radius: 50px;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #424f55;
+  border: none;
+  padding: 10px 10px 10px 10px;
+}
+/* Media Query */
+@media screen and (max-width: 992px) {
+  .modal-content {
+    padding: 5px !important;
+  }
+  .modal-dialog {
+    max-width: 70% !important;
+  }
+  .meet-link img {
+    top: 78%;
+  }
+}
+@media screen and (max-width: 756px) {
+  .meet-link img {
+    top: 82%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .meet-link img {
+    top: 86%;
+  }
+}

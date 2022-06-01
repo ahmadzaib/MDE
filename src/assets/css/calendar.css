@@ -1,0 +1,61 @@
+/* =================== Calendar Section Start ====================  */
+.calendar_main {
+  padding: 0 80px;
+}
+
+.calendar_btn {
+  border-radius: 99999px;
+  background-color: #d0beb438;
+  color: #ff8944;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+  width: 130px;
+  height: 130px;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.calendar_btn:hover {
+  background-color: #f0834438;
+  color: #ff8944;
+  text-decoration: none;
+}
+
+.archive .footer-tabs ul li a.active {
+  background-color: #f08344d0 !important;
+}
+.archive .footer-tabs ul li a.active span {
+  background: #ff8944 !important;
+}
+
+/* =================== Calendar Section End ====================  */
+@media (max-width: 1200px) {
+  .calendar_main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .calendar_btn {
+    width: 110px;
+    height: 110px;
+  }
+  .calendar_main {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .calendar_btn {
+    width: 100px;
+    height: 100px;
+  }
+}

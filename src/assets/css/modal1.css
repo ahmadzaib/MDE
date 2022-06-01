@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* @import url('http://fonts.cdnfonts.com/css/circular-std'); */
+img {
+  width: 100%;
+}
+
+/* body {
+	font-family: 'Circular Std', sans-serif;
+	font-style: normal;
+} */
+/* First Modal Start */
+.modal-dialog {
+  max-width: 53% !important;
+  margin: 1.75rem auto !important;
+}
+.main-Asked {
+  width: 100%;
+}
+.Asked {
+  width: 40%;
+}
+.Asked-1 {
+  width: 20%;
+}
+.modal-ques h1 {
+  font-weight: 900;
+  font-size: 45px;
+  color: #ffb9b9;
+}
+.modal-ques h2 {
+  margin-left: 5%;
+  font-size: 30px;
+  margin-top: 2%;
+  font-weight: 900;
+  color: #b3b3b3;
+}
+.modal-header {
+  border-bottom: none !important;
+}
+.modal-content {
+  background: #546166 !important;
+  border-radius: 48px !important;
+  height: 90vh !important;
+  overflow-y: scroll !important;
+}
+.asked-img img {
+  position: relative;
+  border-radius: 50%;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.asked-johns {
+  width: 100%;
+}
+.asked-img {
+  width: 20%;
+}
+.asked-data,
+.asked-data-2 {
+  width: 80%;
+}
+.asked-data h5,
+.asked-data-2 h5 {
+  color: #ffffff;
+  margin-left: 2%;
+  margin-top: 7%;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+.asked-data span {
+  font-size: 15px;
+
+  color: #ffb9b9;
+}
+.asked-data-2 span {
+  color: #65fdbd;
+  font-size: 15px;
+}
+.asked-data p,
+.asked-data-2 p {
+  font-size: 13px;
+  line-height: 170%;
+  color: #b3b3b3;
+}
+.Asked-3 a {
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  color: #ffb9b9;
+  background: #656a6e;
+  border-radius: 20px;
+  padding: 5px 9px 5px 11px;
+}
+.Asked-3 {
+  padding-top: 3%;
+}
+.meet-modal-main .modal-header .close {
+  /* margin: 0rem 2rem -1rem auto !important; */
+  opacity: 1;
+  background: #657175 !important;
+  border-radius: 9px !important;
+  color: white !important;
+  font-weight: 700 !important;
+  padding: 13px 20px !important;
+}
+.meet-modal-main .modal-header .close:hover {
+  opacity: 1 !important;
+}
+.modal-content::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+.modal-content::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+/* First Modal End */

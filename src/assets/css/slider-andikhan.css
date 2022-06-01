@@ -1,0 +1,46 @@
+/* @import url("http://fonts.cdnfonts.com/css/circular-std");
+
+* {
+  font-family: 'Circular Std';
+} */
+
+.owl-carousel .item {
+  background: #424f55;
+  height: 75vh;
+  transition: all 0.5s ease-in-out;
+  border-radius: 32px;
+  padding: 20px 100px !important;
+}
+
+.owl-carousel .owl-stage {
+  display: flex;
+  align-items: center;
+}
+.owl-carousel .owl-item.active .item {
+  height: 90vh;
+}
+.expert-info-message {
+  padding: 8px 15px;
+  margin-left: 20px;
+  font-size: 8px;
+  background-color: #3a474c;
+  border-radius: 170px 100px 100px 0px;
+}
+
+.expert-info-title {
+  color: #b573ee;
+}
+
+.expert-info-tagline {
+  color: white;
+}
+
+.expert-info-chip {
+  background: #556166;
+  border-radius: 20px;
+  font-size: 10px;
+  padding: 4px 8px;
+}
+/* .first-owl-item {
+  background: red;
+} */
